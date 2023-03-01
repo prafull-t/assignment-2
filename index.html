@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+</head>
+<body>
+  <form action="./index2.html" method="get">
+<h1>FORMS</h1>
+<label for="firstname">Name:</label>
+<input type="text" name="name" id="firstname" placeholder="name" value="" required><br><br><br>
+
+<label for="email">Email Address:</label>
+<input type="email" name="emailID" id="email" placeholder="email"required><br><br><br>
+
+<label for="pass">Password:</label>
+<input type="password" name="password" id="pass" placeholder="password"required><br><br><br>
+
+<label for="lang" required>Language:</label><br>
+<input type="radio" name="language" id="lang" value="react">react<br>
+<input type="radio" name="language" id="lang" value="angular">Angular<br>
+<input type="radio" name="language" id="lang" value="vue">Vue <br><br>
+
+<label for="tech">Course</label required><br>
+<input type="checkbox" name="course1" id="tech" >MERN<br>
+<input type="checkbox" name="course2" id="tech">MEAN<br>
+<input type="checkbox" name="course3" id="tech">MEVN <br><br>
+
+<label for="field">Field:</label required><br>
+<select name="dropdown" id="field" name="field">
+<option value="fullstack">fullstack</option>
+<option value="frontend">frontend</option>
+<option value="backend">backend</option>
+</select><br><br>
+
+<textarea name="description" id="" cols="30" rows="10"></textarea><br><br>
+
+<label for="mobile">Phone Number</label>
+<input type="number" name="phone number" id="mobile">
+
+<button type="submit">submit</button><br><br>
+
+<h2>TABLES</h2><br>
+<a href="./table.html" target="_blank">Click Here</a>
+
+
+  </form>  
+</body>
+</html>
